@@ -1,0 +1,12 @@
+lingoda:
+    resource: "@LingodaBundle/Controller/WWW"
+    type:     annotation
+
+api:
+    resource: "./routing_api.yml"
+    type: rest
+    prefix: /api
+
+NelmioApiDocBundle:
+    resource: "@NelmioApiDocBundle/Resources/config/routing.yml"
+    prefix: "/doc"

@@ -1,0 +1,3 @@
+Contact:
+    type: rest
+    resource: LingodaBundle\Controller\API\ContactController
